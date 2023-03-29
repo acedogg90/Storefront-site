@@ -1,0 +1,156 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    background-color: grey;
+}
+
+h2 {
+    font-size: 3rem;
+    background-color: grey;
+}
+
+article > p {
+    background-color: grey;
+}
+
+footer {
+    background-color: #cca43d;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#mainLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav {
+    display: grid;
+    padding: 0;
+    min-width: 50rem;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    font-size: 2rem;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: grey;
+    padding: 0 1rem 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+
+.active {
+    background-color: #cca43d;
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+
+nav li:hover {
+    background-color: #cca43d;
+    border-radius: 1rem;
+    transition: 0.5s ease-in-out;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+article h1{
+    border-radius: 1rem  1rem 0 0;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    border: 0;
+    margin: 0 1rem;
+}
+
+article h2{
+    border-radius: 1rem 1rem 0 0;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    border: 0;
+    margin: 0.5rem 1rem 0 1rem;
+    font-size: 2rem;
+}
+
+article p{
+    border-radius: 0 0 1rem 1rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    border: 0;
+    margin: 0 1rem;
+}
+
+.img {
+    width: 20vw;
+    border-radius: 1rem;
+
+}
+
+article .hours {
+    text-align: right;
+}
+
+footer {
+    display: flex;
+    margin: 1rem 0 0 0;
+    padding: 0;
+    min-width: 50rem;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer div {
+    display: inline;
+    text-align: center;
+    text-justify: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+footer div {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+footer div p {
+    color: white;
+    font-size: 1rem;
+}
+#baseLogo {
+    align-self: center;
+    margin: 3%;
+
+}
